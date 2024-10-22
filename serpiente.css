@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #61dafb;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+canvas {
+    border: 5px solid #61dafb;
+    background-color: #1c1e22;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    margin-right: 20px;
+}
+footer {
+    margin-top: 20px;
+}
+footer img {
+    width: 100px;
+}
+.instrucciones {
+    color: white;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+.instrucciones h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+.instrucciones p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contact{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}

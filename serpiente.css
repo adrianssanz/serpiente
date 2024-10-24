@@ -47,8 +47,19 @@ footer img {
 .contact{
     font-size: 1.2rem;
     margin-top: 5px;
-    margin-bottom: 50px;
     color: whitesmoke;
+}
+
+.nivel{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    border: 5px solid #61dafb;
+    background-color: #1c1e22;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .contact-link {

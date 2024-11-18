@@ -30,7 +30,7 @@ window.onload = function () {
   document.getElementById("nivel").textContent = "Nivel: " + nivel;
   manzana();
   document.addEventListener("keyup", cambiarDireccion);
-  setInterval(update, 1000 / 10);
+  setInterval(update, 1000 / 8);
 };
 
 function update() {
@@ -47,8 +47,8 @@ function update() {
     document.getElementById("nivel").textContent = "Nivel: " + nivel;
 
     // Reproduce un sonido cuando la serpiente come la manzana
-    let sonido = new Audio("./audios/comer2.mp3");
-    sonido.play();
+    //let sonido = new Audio("./audios/comer2.mp3");
+    //sonido.play();
 
     manzana();
   }
